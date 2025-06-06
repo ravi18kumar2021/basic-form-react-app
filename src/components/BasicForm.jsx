@@ -15,7 +15,7 @@ function BasicForm() {
             return
         }
         if (!validateEmail(formData.email)) {
-            setError("Invalid email");
+            setError("Invalid email address");
             setSuccess("");
             return
         }
